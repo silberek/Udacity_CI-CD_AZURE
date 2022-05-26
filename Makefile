@@ -8,7 +8,7 @@ install:
 test:
 	#python -m pytest -vv --cov=myrepolib tests/*.py
 	#python -m pytest --nbval notebook.ipynb
-	pylint --disable=R,C,W1203 app.py
+	#pylint --disable=R,C,W1203 app.py
 
 
 
