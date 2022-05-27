@@ -61,7 +61,8 @@ Passing GitHub Actions build (after bugfix)
 ![grafik](https://user-images.githubusercontent.com/71324665/170696579-ad6ae743-8ff1-417a-a657-9f7da7073730.png)
 
 * Output of streamed log files from deployed application
-https://github.com/silberek/Udacity_CI-CD_AZURE/blob/main/streamed_log.log
+
+https://flask-ml-udacity.scm.azurewebsites.net/api/logs/docker
 
 
 ## Enhancements
