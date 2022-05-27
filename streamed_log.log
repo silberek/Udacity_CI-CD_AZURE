@@ -1,0 +1,412 @@
+2022-05-27T12:19:20  Welcome, you are now connected to log-streaming service.
+
+Starting Log Tail -n 10 of existing logs ----
+/home/LogFiles/__lastCheckTime.txt  (https://flask-ml-udacity.scm.azurewebsites.net/api/vfs/LogFiles/__lastCheckTime.txt)05/27/2022 12:07:44
+
+/home/LogFiles/kudu/trace/695e82361ba9-66244b90-88cb-4ed9-945e-e35d24c03ea9.txt  (https://flask-ml-udacity.scm.azurewebsites.net/api/vfs/LogFiles/kudu/trace/695e82361ba9-66244b90-88cb-4ed9-945e-e35d24c03ea9.txt)
+2022-05-26T19:05:15  Startup Request, url: /api/vfs/site/wwwroot/?_=1653591820478, method: GET, type: request, pid: 66,1,4, SCM_DO_BUILD_DURING_DEPLOYMENT: True, ScmType: None
+
+/home/LogFiles/kudu/trace/9fb49aad760c-ecdbdd84-184d-4e7c-a925-965de1fd7f00.txt  (https://flask-ml-udacity.scm.azurewebsites.net/api/vfs/LogFiles/kudu/trace/9fb49aad760c-ecdbdd84-184d-4e7c-a925-965de1fd7f00.txt)
+2022-05-26T16:14:13  Startup Request, url: /api/zipdeploy?isAsync=true, method: POST, type: request, pid: 75,1,4, ScmType: None, SCM_DO_BUILD_DURING_DEPLOYMENT: True
+
+/home/LogFiles/kudu/trace/db27f5a075f0-2fcdd6b6-4100-4873-bc75-4dfb333bcd7a.txt  (https://flask-ml-udacity.scm.azurewebsites.net/api/vfs/LogFiles/kudu/trace/db27f5a075f0-2fcdd6b6-4100-4873-bc75-4dfb333bcd7a.txt)
+2022-05-27T11:02:11    Outgoing response, type: response, statusCode: 404, statusText: NotFound
+
+/home/LogFiles/kudu/trace/db27f5a075f0-e7cc4d25-11ed-41f5-815e-39d73d297365.txt  (https://flask-ml-udacity.scm.azurewebsites.net/api/vfs/LogFiles/kudu/trace/db27f5a075f0-e7cc4d25-11ed-41f5-815e-39d73d297365.txt)
+2022-05-27T11:02:08  Startup Request, url: /api/deployments/151653649328261, method: PUT, type: request, pid: 65,1,13, SCM_DO_BUILD_DURING_DEPLOYMENT: True, ScmType: VSTSRM
+
+/home/LogFiles/2022_05_26_pl0sdlwk000038_default_docker.log  (https://flask-ml-udacity.scm.azurewebsites.net/api/vfs/LogFiles/2022_05_26_pl0sdlwk000038_default_docker.log)
+2022-05-26T20:38:50.250690215Z [2022-05-26 20:38:50 +0000] [60] [INFO] Listening at: http://0.0.0.0:8000 (60)
+2022-05-26T20:38:50.251837768Z [2022-05-26 20:38:50 +0000] [60] [INFO] Using worker: sync
+2022-05-26T20:38:50.256648493Z [2022-05-26 20:38:50 +0000] [65] [INFO] Booting worker with pid: 65
+2022-05-26T20:38:54.894331763Z 169.254.130.1 - - [26/May/2022:20:38:54 +0000] "GET /robots933456.txt HTTP/1.1" 404 207 "-" "HealthCheck/1.0"
+2022-05-26T20:38:54.904612444Z 169.254.130.1 - - [26/May/2022:20:38:54 +0000] "GET / HTTP/1.1" 200 32 "-" "AlwaysOn"
+2022-05-26T20:38:54.907444476Z 169.254.130.1 - - [26/May/2022:20:38:54 +0000] "GET / HTTP/1.1" 200 32 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:91.0) Gecko/20100101 Firefox/91.0"
+2022-05-26T20:38:54.911903184Z 169.254.130.1 - - [26/May/2022:20:38:54 +0000] "GET / HTTP/1.1" 200 32 "-" "AlwaysOn"
+2022-05-26T20:38:54.915014830Z 169.254.130.1 - - [26/May/2022:20:38:54 +0000] "GET / HTTP/1.1" 200 32 "https://portal.azure.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:91.0) Gecko/20100101 Firefox/91.0"
+2022-05-26T20:38:55.302936860Z 169.254.130.1 - - [26/May/2022:20:38:55 +0000] "GET /favicon.ico HTTP/1.1" 404 207 "https://flask-ml-udacity.azurewebsites.net/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:91.0) Gecko/20100101 Firefox/91.0"
+
+
+/home/LogFiles/2022_05_26_pl0sdlwk000038_docker.log  (https://flask-ml-udacity.scm.azurewebsites.net/api/vfs/LogFiles/2022_05_26_pl0sdlwk000038_docker.log)
+2022-05-26T16:21:45.554Z INFO  - Starting container for site
+2022-05-26T16:21:45.554Z INFO  - docker run -d --expose=8000 --name flask-ml-udacity_0_6eeb3c7e -e WEBSITE_SITE_NAME=flask-ml-udacity -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=flask-ml-udacity.azurewebsites.net -e WEBSITE_INSTANCE_ID=ab790273c20c9838b8620db8fe66818059f7380f2e3d1b94013fcfac28b917a1 -e HTTP_LOGGING_ENABLED=1 -e WEBSITE_USE_DIAGNOSTIC_SERVER=False appsvc/python:3.7_20220315.5
+2022-05-26T16:21:49.685Z INFO  - Initiating warmup request to container flask-ml-udacity_0_6eeb3c7e for site flask-ml-udacity
+2022-05-26T16:22:04.823Z INFO  - Container flask-ml-udacity_0_6eeb3c7e for site flask-ml-udacity initialized successfully and is ready to serve requests.
+2022-05-26T20:38:36.187Z INFO  - Starting container for site
+2022-05-26T20:38:36.188Z INFO  - docker run -d --expose=8000 --name flask-ml-udacity_0_8febbc61 -e WEBSITE_SITE_NAME=flask-ml-udacity -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=flask-ml-udacity.azurewebsites.net -e WEBSITE_INSTANCE_ID=ab790273c20c9838b8620db8fe66818059f7380f2e3d1b94013fcfac28b917a1 -e HTTP_LOGGING_ENABLED=1 -e WEBSITE_USE_DIAGNOSTIC_SERVER=False appsvc/python:3.7_20220315.5
+2022-05-26T20:38:39.202Z INFO  - Initiating warmup request to container flask-ml-udacity_0_8febbc61 for site flask-ml-udacity
+2022-05-26T20:38:54.890Z INFO  - Container flask-ml-udacity_0_8febbc61 for site flask-ml-udacity initialized successfully and is ready to serve requests.
+
+/home/LogFiles/2022_05_26_pl1sdlwk0000A4_default_docker.log  (https://flask-ml-udacity.scm.azurewebsites.net/api/vfs/LogFiles/2022_05_26_pl1sdlwk0000A4_default_docker.log)
+2022-05-26T16:21:13.190570443Z 169.254.129.1 - - [26/May/2022:16:21:13 +0000] "GET / HTTP/1.1" 200 32 "-" "AlwaysOn"
+2022-05-26T16:21:17.203320647Z 169.254.129.1 - - [26/May/2022:16:21:17 +0000] "GET / HTTP/1.1" 200 32 "-" "AlwaysOn"
+2022-05-26T16:22:07.242341633Z 169.254.129.1 - - [26/May/2022:16:22:07 +0000] "GET / HTTP/1.1" 200 32 "-" "AlwaysOn"
+2022-05-26T16:22:17.247845045Z 169.254.129.1 - - [26/May/2022:16:22:17 +0000] "GET / HTTP/1.1" 200 32 "-" "AlwaysOn"
+2022-05-26T16:22:27.238585636Z 169.254.129.1 - - [26/May/2022:16:22:27 +0000] "GET / HTTP/1.1" 200 32 "-" "AlwaysOn"
+
+
+/home/LogFiles/2022_05_26_pl1sdlwk0000A4_docker.log  (https://flask-ml-udacity.scm.azurewebsites.net/api/vfs/LogFiles/2022_05_26_pl1sdlwk0000A4_docker.log)
+2022-05-26T16:14:56.605Z INFO  - Starting container for site
+2022-05-26T16:14:56.605Z INFO  - docker run -d --expose=8000 --name flask-ml-udacity_1_061f7cb9 -e WEBSITE_SITE_NAME=flask-ml-udacity -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=flask-ml-udacity.azurewebsites.net -e WEBSITE_INSTANCE_ID=d0fccdd293a32b4e5f5c851ad4e30aa14d42fa6f18f653f468f1af862a8f3edd -e HTTP_LOGGING_ENABLED=1 -e WEBSITE_USE_DIAGNOSTIC_SERVER=False appsvc/python:3.7_20220315.5
+2022-05-26T16:15:00.842Z INFO  - Initiating warmup request to container flask-ml-udacity_1_061f7cb9 for site flask-ml-udacity
+2022-05-26T16:15:04.920Z INFO  - Container flask-ml-udacity_1_061f7cb9 for site flask-ml-udacity initialized successfully and is ready to serve requests.
+2022-05-26T16:16:20.872Z INFO  - Starting container for site
+2022-05-26T16:16:20.873Z INFO  - docker run -d --expose=8000 --name flask-ml-udacity_2_4920dd4a -e WEBSITE_SITE_NAME=flask-ml-udacity -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=flask-ml-udacity.azurewebsites.net -e WEBSITE_INSTANCE_ID=d0fccdd293a32b4e5f5c851ad4e30aa14d42fa6f18f653f468f1af862a8f3edd -e HTTP_LOGGING_ENABLED=1 -e WEBSITE_USE_DIAGNOSTIC_SERVER=False appsvc/python:3.7_20220315.5
+2022-05-26T16:16:22.010Z INFO  - Initiating warmup request to container flask-ml-udacity_2_4920dd4a for site flask-ml-udacity
+2022-05-26T16:16:39.070Z INFO  - Container flask-ml-udacity_2_4920dd4a for site flask-ml-udacity initialized successfully and is ready to serve requests.
+
+/home/LogFiles/2022_05_27_pl0sdlwk000038_default_docker.log  (https://flask-ml-udacity.scm.azurewebsites.net/api/vfs/LogFiles/2022_05_27_pl0sdlwk000038_default_docker.log)
+2022-05-27T12:08:16.162974458Z   from ._gradient_boosting import predict_stages
+2022-05-27T12:08:16.162981158Z [2022-05-27 12:08:16,162] INFO in app: JSON payload: %s json_payload
+2022-05-27T12:08:16.170217575Z [2022-05-27 12:08:16,169] INFO in app: inference payload DataFrame: %s inference_payload
+2022-05-27T12:08:16.171270822Z [2022-05-27 12:08:16,170] INFO in app: Scaling Payload: %s payload
+2022-05-27T12:08:16.182100097Z 169.254.130.1 - - [27/May/2022:12:08:16 +0000] "POST /predict HTTP/1.1" 200 35 "-" "curl/7.64.0"
+2022-05-27T12:12:54.974661781Z 169.254.130.1 - - [27/May/2022:12:12:54 +0000] "GET / HTTP/1.1" 200 32 "-" "AlwaysOn"
+2022-05-27T12:17:55.131860977Z 169.254.130.1 - - [27/May/2022:12:17:55 +0000] "GET / HTTP/1.1" 200 32 "-" "AlwaysOn"
+
+
+/home/LogFiles/2022_05_27_pl0sdlwk000038_docker.log  (https://flask-ml-udacity.scm.azurewebsites.net/api/vfs/LogFiles/2022_05_27_pl0sdlwk000038_docker.log)
+2022-05-27T12:07:44.925Z INFO  - Starting container for site
+2022-05-27T12:07:44.925Z INFO  - docker run -d --expose=8000 --name flask-ml-udacity_0_37195e1f -e WEBSITE_SITE_NAME=flask-ml-udacity -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=flask-ml-udacity.azurewebsites.net -e WEBSITE_INSTANCE_ID=ab790273c20c9838b8620db8fe66818059f7380f2e3d1b94013fcfac28b917a1 -e HTTP_LOGGING_ENABLED=1 -e WEBSITE_USE_DIAGNOSTIC_SERVER=False appsvc/python:3.7_20220315.5
+2022-05-27T12:07:47.813Z INFO  - Initiating warmup request to container flask-ml-udacity_0_37195e1f for site flask-ml-udacity
+2022-05-27T12:07:58.176Z INFO  - Container flask-ml-udacity_0_37195e1f for site flask-ml-udacity initialized successfully and is ready to serve requests.
+
+/home/LogFiles/AppServiceAppLogs_Feature_Installer/startup_0.log  (https://flask-ml-udacity.scm.azurewebsites.net/api/vfs/LogFiles/AppServiceAppLogs_Feature_Installer/startup_0.log)
+2022-05-26 16:22:00,460  [MainThread] [DEBUG] : Initialized AppServiceAppLogging
+2022-05-26 16:22:04,540  [Thread-3  ] [DEBUG] : Waiting for the logs flag to be set
+2022-05-26 20:38:50,247  [MainThread] [DEBUG] : Initializating AppServiceAppLogging
+2022-05-26 20:38:50,248  [Thread-1  ] [DEBUG] : Did not find any previously bound socket
+2022-05-26 20:38:50,249  [MainThread] [DEBUG] : Initialized AppServiceAppLogging
+2022-05-26 20:38:54,642  [Thread-3  ] [DEBUG] : Waiting for the logs flag to be set
+2022-05-27 12:07:54,452  [MainThread] [DEBUG] : Initializating AppServiceAppLogging
+2022-05-27 12:07:54,453  [Thread-1  ] [DEBUG] : Did not find any previously bound socket
+2022-05-27 12:07:54,453  [MainThread] [DEBUG] : Initialized AppServiceAppLogging
+2022-05-27 12:07:58,050  [Thread-3  ] [DEBUG] : Waiting for the logs flag to be set
+
+/home/LogFiles/CodeProfiler/ab7902_debug.log  (https://flask-ml-udacity.scm.azurewebsites.net/api/vfs/LogFiles/CodeProfiler/ab7902_debug.log)[2022_05_27_12_07_58] [appsvc_profiler.installer] [INFO] Code Profiler Installer is starting up[2022_05_27_12_07_58] [appsvc_profiler.installer] [INFO] Cleaning up any existing status file which indicated signal handlers initialized status[2022_05_27_12_07_58] [appsvc_profiler.installer] [INFO] Attempting to delete the signal_handler status file for instance id ab790273c20c9838b8620db8fe66818059f7380f2e3d1b94013fcfac28b917a1[2022_05_27_12_07_58] [appsvc_profiler.installer] [INFO] successfully deleted the status file[2022_05_27_12_07_58] [appsvc_profiler.installer] [DEBUG] APPSETTING_WEBSITE_ENABLE_DEFAULT_CODE_PROFILER : None[2022_05_27_12_07_58] [appsvc_profiler.installer] [INFO] Attempting to install the default code profiler.[2022_05_27_12_07_58] [appsvc_profiler.installer] [DEBUG] viztracer would save traces to /tmp/ab7902_profiler_trace.json[2022_05_27_12_07_58] [appsvc_profiler.installer] [INFO] Successfully installed code profiler.[2022_05_27_12_07_58] [appsvc_profiler.installer] [INFO] Signal Handlers SIGUSR for needed code-profiler have been initialized for gunicorn process on instance ab790273c20c9838b8620db8fe66818059f7380f2e3d1b94013fcfac28b917a1[2022_05_27_12_07_58] [appsvc_profiler.installer] [DEBUG] Code Profiler Installer is exiting as installation is completed
+
+/home/LogFiles/CodeProfiler/d0fccd_debug.log  (https://flask-ml-udacity.scm.azurewebsites.net/api/vfs/LogFiles/CodeProfiler/d0fccd_debug.log)[2022_05_26_16_16_38] [appsvc_profiler.installer] [INFO] Code Profiler Installer is starting up[2022_05_26_16_16_38] [appsvc_profiler.installer] [INFO] Cleaning up any existing status file which indicated signal handlers initialized status[2022_05_26_16_16_38] [appsvc_profiler.installer] [INFO] Attempting to delete the signal_handler status file for instance id d0fccdd293a32b4e5f5c851ad4e30aa14d42fa6f18f653f468f1af862a8f3edd[2022_05_26_16_16_38] [appsvc_profiler.installer] [INFO] successfully deleted the status file[2022_05_26_16_16_38] [appsvc_profiler.installer] [DEBUG] APPSETTING_WEBSITE_ENABLE_DEFAULT_CODE_PROFILER : None[2022_05_26_16_16_39] [appsvc_profiler.installer] [INFO] Attempting to install the default code profiler.[2022_05_26_16_16_39] [appsvc_profiler.installer] [DEBUG] viztracer would save traces to /tmp/d0fccd_profiler_trace.json[2022_05_26_16_16_39] [appsvc_profiler.installer] [INFO] Successfully installed code profiler.[2022_05_26_16_16_39] [appsvc_profiler.installer] [INFO] Signal Handlers SIGUSR for needed code-profiler have been initialized for gunicorn process on instance d0fccdd293a32b4e5f5c851ad4e30aa14d42fa6f18f653f468f1af862a8f3edd[2022_05_26_16_16_39] [appsvc_profiler.installer] [DEBUG] Code Profiler Installer is exiting as installation is completed
+
+Ending Log Tail of existing logs ---
+Starting Live Log Stream ---
+2022-05-27T12:20:21  No new trace in the past 1 min(s).
+2022-05-27T12:21:21  No new trace in the past 2 min(s).
+2022-05-27T12:22:21  No new trace in the past 3 min(s).
+2022-05-27T12:22:55.232827409Z 169.254.130.1 - - [27/May/2022:12:22:55 +0000] "GET / HTTP/1.1" 200 32 "-" "AlwaysOn"
+
+
+
+2022-05-27T12:24:21  No new trace in the past 1 min(s).
+2022-05-27T12:24:50.144Z INFO  - Starting container for site
+2022-05-27T12:24:50.146Z INFO  - docker run -d --expose=8000 --name flask-ml-udacity_1_2c671f24 -e WEBSITE_SITE_NAME=flask-ml-udacity -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=flask-ml-udacity.azurewebsites.net -e WEBSITE_INSTANCE_ID=ab790273c20c9838b8620db8fe66818059f7380f2e3d1b94013fcfac28b917a1 -e HTTP_LOGGING_ENABLED=1 -e WEBSITE_USE_DIAGNOSTIC_SERVER=False appsvc/python:3.7_20220315.5
+
+
+
+2022-05-27T12:24:57.024Z INFO  - Initiating warmup request to container flask-ml-udacity_1_2c671f24 for site flask-ml-udacity
+2022-05-27T12:24:57    Outgoing response, type: response, statusCode: 404, statusText: NotFound
+
+2022-05-27 12:24:59,858  [MainThread] [DEBUG] : Initializating AppServiceAppLogging
+2022-05-27 12:24:59,860  [Thread-1  ] [DEBUG] : Did not find any previously bound socket
+2022-05-27 12:24:59,860  [MainThread] [DEBUG] : Initialized AppServiceAppLogging
+
+2022-05-27T12:25:04.110Z INFO  - Container flask-ml-udacity_1_2c671f24 for site flask-ml-udacity initialized successfully and is ready to serve requests.
+2022-05-27 12:25:03,971  [Thread-3  ] [DEBUG] : Waiting for the logs flag to be set
+[2022_05_27_12_25_03] [appsvc_profiler.installer] [INFO] Code Profiler Installer is starting up
+[2022_05_27_12_25_03] [appsvc_profiler.installer] [INFO] Cleaning up any existing status file which indicated signal handlers initialized status
+[2022_05_27_12_25_03] [appsvc_profiler.installer] [INFO] Attempting to delete the signal_handler status file for instance id ab790273c20c9838b8620db8fe66818059f7380f2e3d1b94013fcfac28b917a1
+[2022_05_27_12_25_03] [appsvc_profiler.installer] [INFO] successfully deleted the status file
+[2022_05_27_12_25_03] [appsvc_profiler.installer] [DEBUG] APPSETTING_WEBSITE_ENABLE_DEFAULT_CODE_PROFILER : None
+[2022_05_27_12_25_04] [appsvc_profiler.installer] [INFO] Attempting to install the default code profiler.
+[2022_05_27_12_25_04] [appsvc_profiler.installer] [DEBUG] viztracer would save traces to /tmp/ab7902_profiler_trace.json
+[2022_05_27_12_25_04] [appsvc_profiler.installer] [INFO] Successfully installed code profiler.
+[2022_05_27_12_25_04] [appsvc_profiler.installer] [INFO] Signal Handlers SIGUSR for needed code-profiler have been initialized for gunicorn process on instance ab790273c20c9838b8620db8fe66818059f7380f2e3d1b94013fcfac28b917a1
+[2022_05_27_12_25_04] [appsvc_profiler.installer] [DEBUG] Code Profiler Installer is exiting as installation is completed
+
+2022-05-27T12:24:52.132982700Z
+2022-05-27T12:24:52.133017001Z   _____
+2022-05-27T12:24:52.133034202Z   /  _  \ __________ _________   ____
+2022-05-27T12:24:52.133039702Z  /  /_\  \___   /  |  \_  __ \_/ __ \
+2022-05-27T12:24:52.133044002Z /    |    \/    /|  |  /|  | \/\  ___/
+2022-05-27T12:24:52.133048903Z \____|__  /_____ \____/ |__|    \___  >
+2022-05-27T12:24:52.133053703Z         \/      \/                  \/
+2022-05-27T12:24:52.133057803Z
+2022-05-27T12:24:52.133061503Z A P P   S E R V I C E   O N   L I N U X
+2022-05-27T12:24:52.133065503Z
+2022-05-27T12:24:52.133069204Z Documentation: http://aka.ms/webapp-linux
+2022-05-27T12:24:52.133073204Z Python 3.7.12
+2022-05-27T12:24:52.133088905Z Note: Any data outside '/home' is not persisted
+2022-05-27T12:24:52.541061084Z Starting OpenBSD Secure Shell server: sshd.
+2022-05-27T12:24:52.645482239Z App Command Line not configured, will attempt auto-detect
+2022-05-27T12:24:52.888078487Z Starting periodic command scheduler: cron.
+2022-05-27T12:24:52.888431903Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -bindPort 8000
+2022-05-27T12:24:53.064950042Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2022-05-27T12:24:53.069982971Z Build Operation ID: |XykanOXeyUw=.a1883263_
+2022-05-27T12:24:53.071553942Z Oryx Version: 0.2.20220308.4, Commit: c92fa6a2d6fc14dc9646f80e2bb2e393a5cdc258, ReleaseTagName: 20220308.4
+2022-05-27T12:24:53.071610145Z Output is compressed. Extracting it...
+2022-05-27T12:24:53.072828300Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8da3fdbac5fb4fd'...
+2022-05-27T12:24:58.706739670Z App path is set to '/tmp/8da3fdbac5fb4fd'
+2022-05-27T12:24:59.020779971Z Detected an app based on Flask
+2022-05-27T12:24:59.021827319Z Generating `gunicorn` command for 'app:app'
+2022-05-27T12:24:59.065729418Z Writing output script to '/opt/startup/startup.sh'
+2022-05-27T12:24:59.207904493Z Using packages from virtual environment antenv located at /tmp/8da3fdbac5fb4fd/antenv.
+2022-05-27T12:24:59.208686229Z Updated PYTHONPATH to ':/opt/startup/app_logs:/opt/startup/code_profiler:/tmp/8da3fdbac5fb4fd/antenv/lib/python3.7/site-packages'
+2022-05-27T12:24:59.847687569Z [2022-05-27 12:24:59 +0000] [60] [INFO] Starting gunicorn 20.1.0
+2022-05-27T12:24:59.862526633Z [2022-05-27 12:24:59 +0000] [60] [INFO] Listening at: http://0.0.0.0:8000 (60)
+2022-05-27T12:24:59.863305368Z [2022-05-27 12:24:59 +0000] [60] [INFO] Using worker: sync
+2022-05-27T12:24:59.868635506Z [2022-05-27 12:24:59 +0000] [65] [INFO] Booting worker with pid: 65
+2022-05-27T12:25:04.139187588Z 169.254.130.1 - - [27/May/2022:12:25:04 +0000] "GET /robots933456.txt HTTP/1.1" 404 207 "-" "HealthCheck/1.0"
+
+
+
+2022-05-27T12:26:21  No new trace in the past 1 min(s).
+2022-05-27T12:27:21  No new trace in the past 2 min(s).
+2022-05-27T12:27:56.147493989Z 169.254.130.1 - - [27/May/2022:12:27:56 +0000] "GET / HTTP/1.1" 200 32 "-" "AlwaysOn"
+
+
+
+2022-05-27T12:29:22  No new trace in the past 1 min(s).
+2022-05-27T12:29:33.284Z INFO  - Starting container for site
+2022-05-27T12:29:33.286Z INFO  - docker run -d --expose=8000 --name flask-ml-udacity_2_97aa6552 -e WEBSITE_SITE_NAME=flask-ml-udacity -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=flask-ml-udacity.azurewebsites.net -e WEBSITE_INSTANCE_ID=ab790273c20c9838b8620db8fe66818059f7380f2e3d1b94013fcfac28b917a1 -e HTTP_LOGGING_ENABLED=1 -e WEBSITE_USE_DIAGNOSTIC_SERVER=False appsvc/python:3.7_20220315.5
+
+
+
+2022-05-27T12:29:37.830Z INFO  - Initiating warmup request to container flask-ml-udacity_2_97aa6552 for site flask-ml-udacity
+
+2022-05-27T12:29:41    Outgoing response, type: response, statusCode: 404, statusText: NotFound
+
+2022-05-27 12:29:43,005  [MainThread] [DEBUG] : Initializating AppServiceAppLogging
+2022-05-27 12:29:43,006  [Thread-1  ] [DEBUG] : Did not find any previously bound socket
+2022-05-27 12:29:43,006  [MainThread] [DEBUG] : Initialized AppServiceAppLogging
+
+2022-05-27T12:29:46.722Z INFO  - Container flask-ml-udacity_2_97aa6552 for site flask-ml-udacity initialized successfully and is ready to serve requests.
+2022-05-27 12:29:46,603  [Thread-3  ] [DEBUG] : Waiting for the logs flag to be set
+[2022_05_27_12_29_46] [appsvc_profiler.installer] [INFO] Code Profiler Installer is starting up
+[2022_05_27_12_29_46] [appsvc_profiler.installer] [INFO] Cleaning up any existing status file which indicated signal handlers initialized status
+[2022_05_27_12_29_46] [appsvc_profiler.installer] [INFO] Attempting to delete the signal_handler status file for instance id ab790273c20c9838b8620db8fe66818059f7380f2e3d1b94013fcfac28b917a1
+[2022_05_27_12_29_46] [appsvc_profiler.installer] [INFO] successfully deleted the status file
+[2022_05_27_12_29_46] [appsvc_profiler.installer] [DEBUG] APPSETTING_WEBSITE_ENABLE_DEFAULT_CODE_PROFILER : None
+[2022_05_27_12_29_46] [appsvc_profiler.installer] [INFO] Attempting to install the default code profiler.
+[2022_05_27_12_29_46] [appsvc_profiler.installer] [DEBUG] viztracer would save traces to /tmp/ab7902_profiler_trace.json
+[2022_05_27_12_29_46] [appsvc_profiler.installer] [INFO] Successfully installed code profiler.
+[2022_05_27_12_29_46] [appsvc_profiler.installer] [INFO] Signal Handlers SIGUSR for needed code-profiler have been initialized for gunicorn process on instance ab790273c20c9838b8620db8fe66818059f7380f2e3d1b94013fcfac28b917a1
+[2022_05_27_12_29_46] [appsvc_profiler.installer] [DEBUG] Code Profiler Installer is exiting as installation is completed
+
+2022-05-27T12:29:35.445924119Z
+2022-05-27T12:29:35.445971921Z   _____
+2022-05-27T12:29:35.445978422Z   /  _  \ __________ _________   ____
+2022-05-27T12:29:35.445982822Z  /  /_\  \___   /  |  \_  __ \_/ __ \
+2022-05-27T12:29:35.445987322Z /    |    \/    /|  |  /|  | \/\  ___/
+2022-05-27T12:29:35.445991622Z \____|__  /_____ \____/ |__|    \___  >
+2022-05-27T12:29:35.445996323Z         \/      \/                  \/
+2022-05-27T12:29:35.446000723Z
+2022-05-27T12:29:35.446006923Z A P P   S E R V I C E   O N   L I N U X
+2022-05-27T12:29:35.446011023Z
+2022-05-27T12:29:35.446014923Z Documentation: http://aka.ms/webapp-linux
+2022-05-27T12:29:35.446018924Z Python 3.7.12
+2022-05-27T12:29:35.446023024Z Note: Any data outside '/home' is not persisted
+2022-05-27T12:29:35.544682448Z Starting OpenBSD Secure Shell server: sshd.
+2022-05-27T12:29:35.572720334Z App Command Line not configured, will attempt auto-detect
+2022-05-27T12:29:35.735137683Z Starting periodic command scheduler: cron.
+2022-05-27T12:29:35.735543301Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -bindPort 8000
+2022-05-27T12:29:35.766115403Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2022-05-27T12:29:35.770491504Z Build Operation ID: |wu/4L03fUPI=.a2553707_
+2022-05-27T12:29:35.771502650Z Oryx Version: 0.2.20220308.4, Commit: c92fa6a2d6fc14dc9646f80e2bb2e393a5cdc258, ReleaseTagName: 20220308.4
+2022-05-27T12:29:35.771704160Z Output is compressed. Extracting it...
+2022-05-27T12:29:35.772823911Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8da3fdc5364f82c'...
+2022-05-27T12:29:41.905123920Z App path is set to '/tmp/8da3fdc5364f82c'
+2022-05-27T12:29:42.160360948Z Detected an app based on Flask
+2022-05-27T12:29:42.161891318Z Generating `gunicorn` command for 'app:app'
+2022-05-27T12:29:42.221566260Z Writing output script to '/opt/startup/startup.sh'
+2022-05-27T12:29:42.316689230Z Using packages from virtual environment antenv located at /tmp/8da3fdc5364f82c/antenv.
+2022-05-27T12:29:42.317534869Z Updated PYTHONPATH to ':/opt/startup/app_logs:/opt/startup/code_profiler:/tmp/8da3fdc5364f82c/antenv/lib/python3.7/site-packages'
+2022-05-27T12:29:42.995135303Z [2022-05-27 12:29:42 +0000] [60] [INFO] Starting gunicorn 20.1.0
+2022-05-27T12:29:43.015894557Z [2022-05-27 12:29:43 +0000] [60] [INFO] Listening at: http://0.0.0.0:8000 (60)
+2022-05-27T12:29:43.016659192Z [2022-05-27 12:29:43 +0000] [60] [INFO] Using worker: sync
+2022-05-27T12:29:43.022506061Z [2022-05-27 12:29:43 +0000] [65] [INFO] Booting worker with pid: 65
+2022-05-27T12:29:46.740030769Z 169.254.130.1 - - [27/May/2022:12:29:46 +0000] "GET /robots933456.txt HTTP/1.1" 404 207 "-" "HealthCheck/1.0"
+
+
+
+2022-05-27T12:31:22  No new trace in the past 1 min(s).
+2022-05-27T12:32:22  No new trace in the past 2 min(s).
+2022-05-27T12:32:56.271324638Z 169.254.130.1 - - [27/May/2022:12:32:56 +0000] "GET / HTTP/1.1" 200 32 "-" "AlwaysOn"
+
+
+
+2022-05-27T12:34:22  No new trace in the past 1 min(s).
+2022-05-27T12:35:22  No new trace in the past 2 min(s).
+2022-05-27T12:36:22  No new trace in the past 3 min(s).
+2022-05-27T12:37:22  No new trace in the past 4 min(s).
+2022-05-27T12:37:56.391661455Z 169.254.130.1 - - [27/May/2022:12:37:56 +0000] "GET / HTTP/1.1" 200 32 "-" "AlwaysOn"
+
+
+
+2022-05-27T12:39:22  No new trace in the past 1 min(s).
+2022-05-27T12:40:22  No new trace in the past 2 min(s).
+2022-05-27T12:41:22  No new trace in the past 3 min(s).
+2022-05-27T12:42:22  No new trace in the past 4 min(s).
+2022-05-27T12:42:56.563430288Z 169.254.130.1 - - [27/May/2022:12:42:56 +0000] "GET / HTTP/1.1" 200 32 "-" "AlwaysOn"
+
+
+
+2022-05-27T12:44:22  No new trace in the past 1 min(s).
+2022-05-27T12:45:22  No new trace in the past 2 min(s).
+2022-05-27T12:46:22  No new trace in the past 3 min(s).
+2022-05-27T12:47:22  No new trace in the past 4 min(s).
+2022-05-27T12:47:56.702268282Z 169.254.130.1 - - [27/May/2022:12:47:56 +0000] "GET / HTTP/1.1" 200 32 "-" "AlwaysOn"
+
+
+
+2022-05-27T12:49:22  No new trace in the past 1 min(s).
+2022-05-27T12:50:22  No new trace in the past 2 min(s).
+2022-05-27T12:51:22  No new trace in the past 3 min(s).
+2022-05-27T12:52:22  No new trace in the past 4 min(s).
+2022-05-27T12:52:57.674437357Z 169.254.130.1 - - [27/May/2022:12:52:57 +0000] "GET / HTTP/1.1" 200 32 "-" "AlwaysOn"
+
+
+
+2022-05-27T12:54:22  No new trace in the past 1 min(s).
+2022-05-27T12:55:22  No new trace in the past 2 min(s).
+2022-05-27T12:56:22  No new trace in the past 3 min(s).
+2022-05-27T12:57:22  No new trace in the past 4 min(s).
+2022-05-27T12:57:57.015071739Z 169.254.130.1 - - [27/May/2022:12:57:57 +0000] "GET / HTTP/1.1" 200 32 "-" "AlwaysOn"
+
+
+
+2022-05-27T12:59:22  No new trace in the past 1 min(s).
+2022-05-27T13:00:22  No new trace in the past 2 min(s).
+2022-05-27T13:01:22  No new trace in the past 3 min(s).
+2022-05-27T13:02:22  No new trace in the past 4 min(s).
+2022-05-27T13:02:57.163916075Z 169.254.130.1 - - [27/May/2022:13:02:57 +0000] "GET / HTTP/1.1" 200 32 "-" "AlwaysOn"
+
+
+
+2022-05-27T13:04:22  No new trace in the past 1 min(s).
+2022-05-27T13:05:22  No new trace in the past 2 min(s).
+2022-05-27T13:06:22  No new trace in the past 3 min(s).
+2022-05-27T13:07:22  No new trace in the past 4 min(s).
+2022-05-27T13:07:57.309183331Z 169.254.130.1 - - [27/May/2022:13:07:57 +0000] "GET / HTTP/1.1" 200 32 "-" "AlwaysOn"
+
+
+
+2022-05-27T13:09:22  No new trace in the past 1 min(s).
+2022-05-27T13:10:22  No new trace in the past 2 min(s).
+2022-05-27T13:11:22  No new trace in the past 3 min(s).
+2022-05-27T13:12:22  No new trace in the past 4 min(s).
+2022-05-27T13:12:57.447374900Z 169.254.130.1 - - [27/May/2022:13:12:57 +0000] "GET / HTTP/1.1" 200 32 "-" "AlwaysOn"
+
+
+
+2022-05-27T13:14:22  No new trace in the past 1 min(s).
+2022-05-27T13:15:22  No new trace in the past 2 min(s).
+2022-05-27T13:16:22  No new trace in the past 3 min(s).
+2022-05-27T13:17:22  No new trace in the past 4 min(s).
+2022-05-27T13:18:00.228765950Z 169.254.130.1 - - [27/May/2022:13:18:00 +0000] "GET / HTTP/1.1" 200 32 "-" "AlwaysOn"
+
+
+
+2022-05-27T13:19:22  No new trace in the past 1 min(s).
+2022-05-27T13:20:22  No new trace in the past 2 min(s).
+2022-05-27T13:21:22  No new trace in the past 3 min(s).
+2022-05-27T13:22:22  No new trace in the past 4 min(s).
+2022-05-27T13:22:58.402313081Z 169.254.130.1 - - [27/May/2022:13:22:58 +0000] "GET / HTTP/1.1" 200 32 "-" "AlwaysOn"
+
+
+
+2022-05-27T13:24:22  No new trace in the past 1 min(s).
+2022-05-27T13:25:22  No new trace in the past 2 min(s).
+2022-05-27T13:26:22  No new trace in the past 3 min(s).
+2022-05-27T13:27:22  No new trace in the past 4 min(s).
+2022-05-27T13:27:58.574491786Z 169.254.130.1 - - [27/May/2022:13:27:58 +0000] "GET / HTTP/1.1" 200 32 "-" "AlwaysOn"
+
+
+
+2022-05-27T13:29:22  No new trace in the past 1 min(s).
+2022-05-27T13:30:22  No new trace in the past 2 min(s).
+2022-05-27T13:31:22  No new trace in the past 3 min(s).
+2022-05-27T13:32:22  No new trace in the past 4 min(s).
+2022-05-27T13:32:58.691368831Z 169.254.130.1 - - [27/May/2022:13:32:58 +0000] "GET / HTTP/1.1" 200 32 "-" "AlwaysOn"
+
+
+
+2022-05-27T13:34:22  No new trace in the past 1 min(s).
+2022-05-27T13:35:22  No new trace in the past 2 min(s).
+2022-05-27T13:36:22  No new trace in the past 3 min(s).
+2022-05-27T13:37:22  No new trace in the past 4 min(s).
+2022-05-27T13:37:58.843176572Z 169.254.130.1 - - [27/May/2022:13:37:58 +0000] "GET / HTTP/1.1" 200 32 "-" "AlwaysOn"
+
+
+
+2022-05-27T13:39:22  No new trace in the past 1 min(s).
+2022-05-27T13:40:22  No new trace in the past 2 min(s).
+2022-05-27T13:41:22  No new trace in the past 3 min(s).
+2022-05-27T13:42:22  No new trace in the past 4 min(s).
+2022-05-27T13:42:59.014776351Z 169.254.130.1 - - [27/May/2022:13:42:59 +0000] "GET / HTTP/1.1" 200 32 "-" "AlwaysOn"
+
+
+
+2022-05-27T13:44:22  No new trace in the past 1 min(s).
+2022-05-27T13:45:22  No new trace in the past 2 min(s).
+2022-05-27T13:46:22  No new trace in the past 3 min(s).
+2022-05-27T13:47:22  No new trace in the past 4 min(s).
+2022-05-27T13:47:59.660017641Z 169.254.130.1 - - [27/May/2022:13:47:59 +0000] "GET / HTTP/1.1" 200 32 "-" "AlwaysOn"
+
+
+
+2022-05-27T13:49:22  No new trace in the past 1 min(s).
+2022-05-27T13:50:22  No new trace in the past 2 min(s).
+2022-05-27T13:51:22  No new trace in the past 3 min(s).
+2022-05-27T13:52:22  No new trace in the past 4 min(s).
+2022-05-27T13:52:59.743673412Z 169.254.130.1 - - [27/May/2022:13:52:59 +0000] "GET / HTTP/1.1" 200 32 "-" "AlwaysOn"
+
+
+
+2022-05-27T13:54:22  No new trace in the past 1 min(s).
+2022-05-27T13:55:22  No new trace in the past 2 min(s).
+2022-05-27T13:56:22  No new trace in the past 3 min(s).
+2022-05-27T13:57:22  No new trace in the past 4 min(s).
+2022-05-27T13:57:59.907844293Z 169.254.130.1 - - [27/May/2022:13:57:59 +0000] "GET / HTTP/1.1" 200 32 "-" "AlwaysOn"
+
+
+
+2022-05-27T13:59:22  No new trace in the past 1 min(s).
+2022-05-27T14:00:22  No new trace in the past 2 min(s).
+2022-05-27T14:01:22  No new trace in the past 3 min(s).
+2022-05-27T14:02:22  No new trace in the past 4 min(s).
+2022-05-27T14:03:00.031349047Z 169.254.130.1 - - [27/May/2022:14:03:00 +0000] "GET / HTTP/1.1" 200 32 "-" "AlwaysOn"
+
+
+
+2022-05-27T14:04:22  No new trace in the past 1 min(s).
+2022-05-27T14:05:22  No new trace in the past 2 min(s).
+2022-05-27T14:06:22  No new trace in the past 3 min(s).
+2022-05-27T14:07:22  No new trace in the past 4 min(s).
+2022-05-27T14:08:00.146338317Z 169.254.130.1 - - [27/May/2022:14:08:00 +0000] "GET / HTTP/1.1" 200 32 "-" "AlwaysOn"
+
+
+
+2022-05-27T14:09:22  No new trace in the past 1 min(s).
+2022-05-27T14:10:22  No new trace in the past 2 min(s).
+2022-05-27T14:11:22  No new trace in the past 3 min(s).
+2022-05-27T14:12:22  No new trace in the past 4 min(s).
+2022-05-27T14:13:00.854595271Z 169.254.130.1 - - [27/May/2022:14:13:00 +0000] "GET / HTTP/1.1" 200 32 "-" "AlwaysOn"
+
+
+
+2022-05-27T14:14:22  No new trace in the past 1 min(s).
+2022-05-27T14:15:22  No new trace in the past 2 min(s).
+2022-05-27T14:16:22  No new trace in the past 3 min(s).
+2022-05-27T14:17:22  No new trace in the past 4 min(s).
+2022-05-27T14:18:00.971886130Z 169.254.130.1 - - [27/May/2022:14:18:00 +0000] "GET / HTTP/1.1" 200 32 "-" "AlwaysOn"
+
+
+
+2022-05-27T14:19:21  Stream terminated due to timeout 120 min(s).
+
+2022-05-27T14:19:22  No new trace in the past 1 min(s).
+2022-05-27T14:20:22  No new trace in the past 2 min(s).
+2022-05-27T14:21:22  No new trace in the past 3 min(s).
+2022-05-27T14:22:22  No new trace in the past 4 min(s).
+2022-05-27T14:23:22  No new trace in the past 5 min(s).
+
+
