@@ -49,6 +49,13 @@ Passing GitHub Actions build (after bugfix)
 
 3. CD on Azure
 
+* Create an Azure App Service
+```
+az webapp up -n <app name>
+```
+
+![grafik](https://user-images.githubusercontent.com/71324665/170726700-2895a31a-eb4d-4201-8824-f0bf149cea19.png)
+
 * Create a Pipeline in Azure DevOps for your Flask App.
 
     Pipaline shoud complete without errors:
