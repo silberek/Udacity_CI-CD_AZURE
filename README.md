@@ -61,12 +61,14 @@ Execute file to make prediction
 ![grafik](https://user-images.githubusercontent.com/71324665/170696579-ad6ae743-8ff1-417a-a657-9f7da7073730.png)
 
 * Output of streamed log files from deployed application
-
+https://github.com/silberek/Udacity_CI-CD_AZURE/blob/main/streamed_log.log
 
 
 ## Enhancements
 
-<TODO: A short description of how to improve the project in the future>
+* It should be possible to make predictions directly from the website
+* The functionality of the application should be tested in pipelines
+* Application performance should be tested
 
 ## Demo 
 
