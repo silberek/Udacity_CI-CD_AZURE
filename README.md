@@ -47,31 +47,22 @@ Passing GitHub Actions build (after bugfix)
 
 ![grafik](https://user-images.githubusercontent.com/71324665/170559953-d53ace49-bc9e-416a-8f58-9635b6d680a1.png)
 
+3. CD on Azure
 
-<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
+Create a Pipeline in Azure DevOps for your Flask App.
 
-* Project running on Azure App Service
+Pipaline shoud complete without errors:
 
+![grafik](https://user-images.githubusercontent.com/71324665/170694605-fd32f56a-485a-4818-a873-5986cba8f3a3.png)
 
+Edit make_predict_azure_app.sh and update your app name. 
+Execute file to make prediction
 
-
-
-* Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
-
-* Running Azure App Service from Azure Pipelines automatic deployment
-
-* Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
-The output should look similar to this:
-
-```bash
-udacity@Azure:~$ ./make_predict_azure_app.sh
-Port: 443
-{"prediction":[20.35373177134412]}
-```
+![grafik](https://user-images.githubusercontent.com/71324665/170696579-ad6ae743-8ff1-417a-a657-9f7da7073730.png)
 
 * Output of streamed log files from deployed application
 
-> 
+
 
 ## Enhancements
 
