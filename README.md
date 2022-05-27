@@ -3,10 +3,10 @@
 In this project, we will create a web application that will predict house prices in Boston.
 
 Services used :
-    - Github 
-    - Azure Cloud CLI 
-    - Azure App Services
-    - Azure DevOps Pipelines 
+- Github 
+- Azure Cloud CLI 
+- Azure App Services
+- Azure DevOps Pipelines 
 
 To work on the project you will need:
 - github account
@@ -49,14 +49,14 @@ Passing GitHub Actions build (after bugfix)
 
 3. CD on Azure
 
-Create a Pipeline in Azure DevOps for your Flask App.
+* Create a Pipeline in Azure DevOps for your Flask App.
 
-Pipaline shoud complete without errors:
+    Pipaline shoud complete without errors:
 
 ![grafik](https://user-images.githubusercontent.com/71324665/170694605-fd32f56a-485a-4818-a873-5986cba8f3a3.png)
 
-Edit make_predict_azure_app.sh and update your app name. 
-Execute file to make prediction
+* Edit make_predict_azure_app.sh and update your app name. 
+* Execute file to make prediction
 
 ![grafik](https://user-images.githubusercontent.com/71324665/170696579-ad6ae743-8ff1-417a-a657-9f7da7073730.png)
 
