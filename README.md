@@ -106,4 +106,5 @@ locust
  ```
  Test for 25 users, 1 spawn 
  
- ![grafik](https://user-images.githubusercontent.com/71324665/170838309-ebbb3ceb-f201-48c2-86f9-a22ae9f6e236.png)
+![grafik](https://user-images.githubusercontent.com/71324665/170838406-8d787d6d-e871-4b8a-8f77-268192f21451.png)
+
