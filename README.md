@@ -1,3 +1,5 @@
+[![Python application test with Github Actions](https://github.com/silberek/Udacity_CI-CD_AZURE/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/silberek/Udacity_CI-CD_AZURE/actions/workflows/pythonapp.yml)
+
 # Overview
 
 In this project, we will create a web application that will predict house prices in Boston.
