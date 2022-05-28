@@ -17,7 +17,7 @@ To work on the project you will need:
 ## Project Plan
  Project Plan
 
-* A link to a Trello board for the project: https://trello.com/b/MGha4u5Y/udacity
+* A link to a Trello board for the project: link-trello
 * A link to a spreadsheet that includes the project plan: https://github.com/silberek/Udacity_CI-CD_AZURE/blob/main/Q4%202022.xlsx
 
 ## Instructions
