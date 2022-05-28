@@ -84,5 +84,26 @@ https://flask-ml-udacity.scm.azurewebsites.net/api/logs/docker
 
 https://youtu.be/9307ukeiI6Q
 
+## Load Test 
+
+*  install locust 
+
+```
+pip install locust
+```
+![grafik](https://user-images.githubusercontent.com/71324665/170837995-03f8026f-6822-4895-bddb-231094d0f8fd.png)
 
 
+*  run app
+ ```
+ python app.py
+ ```
+
+*  start locust 
+ 
+ ```
+locust
+ ```
+ Test for 25 users, 1 spawn 
+ 
+ ![grafik](https://user-images.githubusercontent.com/71324665/170838309-ebbb3ceb-f201-48c2-86f9-a22ae9f6e236.png)
